@@ -73,7 +73,7 @@ SMFファイルから読み込んだMIDIメッセージを送信します．
 [MIDIConsoleOut][console]はMIDI::MIDIMessage型のデータを受け取り，コンソール上に表示するRTCです．  
 [こちら][console]よりDLしてください．
 
-[console]:http://pyserial.sourceforge.net/
+[console]:https://github.com/HiroakiMatsuda/MIDIConsoleOut  
 
 
 ###2. 解析するMIDIファイルを設定する###
