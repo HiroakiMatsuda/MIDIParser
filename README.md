@@ -69,7 +69,7 @@ SMFファイルから読み込んだMIDIメッセージを送信します．
 
 使い方：　MIDIConsoleOutを使用してテストする
 ------
-###1. MIDIConsoleOutの入手する###
+###1. MIDIConsoleOutを入手する###
 [MIDIConsoleOut][console]はMIDI::MIDIMessage型のデータを受け取り，コンソール上に表示するRTCです．  
 [こちら][console]よりDLしてください．
 
