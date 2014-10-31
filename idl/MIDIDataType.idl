@@ -1,0 +1,50 @@
+#include "BasicDataType.idl"
+
+module MIDI
+{
+	struct ChannelMessage
+	{
+		short channel;
+		short note_number;
+		short velocity;
+		short control_number;
+		short value;
+		short number_of_channels;
+		short tone_number;
+		short pressure;
+		long  pitch_bend;
+	};
+	
+	struct SystemMessage
+	{
+		string data;
+		short  sequence_number;
+		string text;
+		string copyright_notice;
+		string sequence_name;
+		string instrument_name;
+		string lyrics;
+		string marker;
+		string cue_point;
+		string program_name;
+		string device_name;
+		short  midi_channel;
+		short  port;
+		long   tempo;
+		long   offset;
+		short  molecule;
+		short  denominator;
+		short  click;
+		short  notes_per_clocks;
+		short  sf;
+		short  mi;
+	};
+
+	struct MIDIMessage
+	{
+		RTC::Time tm;
+		string event;
+		ChannelMessage ch;
+		SystemMessage sys;
+	};
+};
